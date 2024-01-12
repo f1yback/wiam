@@ -1,0 +1,19 @@
+.div-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.error-block * {
+    color: red;
+}
+.image-container {
+    min-height: 500px;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}

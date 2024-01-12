@@ -12,6 +12,8 @@ class ReviewForm extends Model
 {
     public const FORM_NAME = 'Form';
 
+    public ?int $status = null;
+
     public function __construct(
         private Session $session,
         $config = []
@@ -19,8 +21,6 @@ class ReviewForm extends Model
     {
         parent::__construct($config);
     }
-
-    public ?int $status = null;
 
     public function rules(): array
     {
